@@ -2,6 +2,10 @@ import random
 
 sum = 0
 
+print("What is your name?")
+name = input()
+print(f"Hello, {name}!")
+
 print("Rolling dice...")
 
 rand = random.randint(1, 6)
